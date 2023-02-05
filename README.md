@@ -3,8 +3,6 @@
 
 This library require changes in the original source code.
 
-For Symfony there is a bundle [xtompie/aop-symfony](https://github.com/xtompie/aop-symfony/)
-
 In simplified and generalized term AOP is Publish/Subscribe system with Middlewares.
 
 ## Requiments
