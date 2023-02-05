@@ -1,0 +1,24 @@
+{
+    "name": "xtompie/aop",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xtompie\\Aop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomasz Pielczyk",
+            "email": "tomasz.pielczyk@gmail.com"
+        }
+    ],
+    "require": {
+        "xtompie/sorter": "^2.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}
