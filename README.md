@@ -79,7 +79,7 @@ There is only one type of Advice - around. Before and after can be achive manual
 ```php
 <?php
 
-use Xtompie\Aop\GenericAspect;
+use Xtompie\Aop\Aop;
 
 $aop = new Aop([
     new DebugAspect(),
@@ -101,7 +101,7 @@ class FoobarService
     public function baz(int $a): int
     {
         return aop(__METHOD__, func_get_args(), function(int $a) { // <-- added line
-            return $a +1;
+            return $a + 1;
         }); // <-- added line
     }
 }
